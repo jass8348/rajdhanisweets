@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rajdhani Sweets & Restaurant - Home</title>
+  <title>Customer Reviews & Testimonials</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="home-page">
+<body class="testimonials-page">
 
+  <!-- Header with logo and navigation -->
   <header>
     <div class="header-content">
       <h1 class="site-title">Rajdhani Sweets & Restaurant</h1>
       <img src="images/footerlogo.png" alt="Rajdhani Logo" class="logo-right" />
-      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
     </div>
     <nav id="navbar">
       <ul>
@@ -29,42 +29,36 @@
     </nav>
   </header>
 
-  <!-- Hero Section with Homepage Image -->
-  <section class="hero">
-    <img src="images/Homepage.jpg" alt="Rajdhani Dishes" class="hero-img">
-    <h2>Authentic Indian Cuisine, Made Fresh Daily</h2>
-    <a href="menu.html" class="btn">View Menu</a>
-  </section>
+  <!-- Reviews Section -->
+  <section class="reviews-section">
+    <h2>Customer Reviews & Testimonials</h2>
+    <p>We value your feedback and love to hear what our customers have to say!</p>
+    <a href="#reviews" class="read-more">Read More Reviews</a>
 
-  <!-- Traditional Sweets Section (.avif) -->
-  <section class="highlight">
-    <img src="images/traditionalsweets.avif" alt="Traditional Indian Sweets" class="highlight-img">
-  </section>
-
-  <!-- Misal Pav Section (.webp) -->
-  <section class="special">
-    <div class="img-overlay">
-      <img src="images/misal-pav.webp" alt="Misal Pav Dish" class="special-img">
-      <h3 class="overlay-text">Spicy Misal Pav – A Maharashtrian Delight</h3>
+    <div class="reviews-container" id="reviews">
+      <div class="review">
+        <p><strong>John Doe</strong></p>
+        <p>"Amazing food and great service! Highly recommend."</p>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+      </div>
+      <div class="review">
+        <p><strong>Emily Smith</strong></p>
+        <p>"Loved the ambiance and the dishes were fantastic!"</p>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+      </div>
+      <div class="review">
+        <p><strong>Rajesh Kumar</strong></p>
+        <p>"Authentic Indian flavors! Will definitely visit again."</p>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+      </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>📍 840 Queenston Rd Unit 15, Stoney Creek, ON L8G 4A8, Canada | 📞 (905) 930-9978</p>
     <p>© 2025 Rajdhani Sweets & Restaurant</p>
   </footer>
 
-  <!-- Mobile Nav Toggle Script -->
-  <script>
-    const toggleBtn = document.getElementById("menu-toggle");
-    const navbar = document.getElementById("navbar");
-    toggleBtn.addEventListener("click", () => {
-      navbar.classList.toggle("show-menu");
-    });
-  </script>
-
 </body>
 </html>
-
-
-

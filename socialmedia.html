@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Online Ordering - Rajdhani Sweets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connect with Us - Rajdhani Sweets</title>
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<body class="ordering-page">
+<body class="social-page">
+
   <header>
     <div class="header-content">
       <h1 class="site-title">Rajdhani Sweets & Restaurant</h1>
-      <img src="images/footerlogo.jpeg" alt="Rajdhani Logo" class="logo-right" />
+      <img src="images/footerlogo.png" alt="Rajdhani Logo" class="logo-right" />
     </div>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
@@ -27,31 +29,20 @@
     </nav>
   </header>
 
-  <section class="catering-form">
-    <h2>Order Online</h2>
-    <form>
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required />
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="menu-items">Order Details:</label>
-      <textarea id="menu-items" name="menu-items" placeholder="E.g., 2x Samosa Chana, 1x Chilli Paneer" required></textarea>
-
-      <label for="pickup">Preferred Pickup Time:</label>
-      <input type="time" id="pickup" name="pickup" required />
-
-      <button type="submit">Place Order</button>
-    </form>
+  <section id="social-media">
+    <h2>Connect with Us</h2>
+    <p>Follow us on social media to stay updated!</p>
+    <div class="social-links">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+    </div>
   </section>
 
   <footer>
     <p>📍 840 Queenston Rd Unit 15, Stoney Creek, ON L8G 4A8, Canada | 📞 (905) 930-9978</p>
     <p>© 2025 Rajdhani Sweets & Restaurant</p>
   </footer>
+
 </body>
 </html>
