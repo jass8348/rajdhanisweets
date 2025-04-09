@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Rajdhani Sweets & Snacks</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body class="menu-page">
+
+  <header>
+    <div class="header-content">
+      <h1 class="site-title">Rajdhani Sweets & Snacks</h1>
+      <img src="images/footerlogo.png" alt="Rajdhani Logo" class="logo-right" />
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="ordering.html">Online Ordering</a></li>
+        <li><a href="catering.html">Catering</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reviews.html">Customer Reviews</a></li>
+        <li><a href="Contact%20Us.html">Contact Us</a></li>
+        <li><a href="social.html">Social Media</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Search Bar -->
+  <section class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search for a dish..." onkeyup="filterMenu()" />
+  </section>
+
+  <!-- Menu Categories -->
+  <section class="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-category">
+      <h3>Traditional Indian Snacks</h3>
+      <div class="menu-item">
+        <img src="images/Achari Mathi.jpeg" alt="Achari Mathi" />
+        <h4>Achari Mathi</h4>
+        <p>Flaky and crispy deep-fried snack with a tangy pickle spice flavor.</p>
+        <p class="price">C$9.99/lb</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="images/masala kaju.avif" alt="Masala Kaju" />
+        <h4>Masala Kaju</h4>
+        <p>Roasted cashews coated with a bold, spicy seasoning.</p>
+        <p class="price">C$29.99/lb</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Authentic Indian Chaat</h3>
+      <div class="menu-item">
+        <img src="images/Pani Puri.jpeg" alt="Pani Puri" />
+        <h4>Pani Puri</h4>
+        <p>A classic Indian favorite with crispy puris and spicy, flavored water.</p>
+        <p class="price">C$8.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="images/samosa-chaat.jpg" alt="Samosa Chana" />
+        <h4>Samosa Chana</h4>
+        <p>Crispy samosas topped with chickpea curry, yogurt, and chutneys.</p>
+        <p class="price">C$10.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Indo-Chinese Specialties</h3>
+      <div class="menu-item">
+        <img src="images/veg-hakka-noodles.jpeg" alt="Hakka Noodles" />
+        <h4>Hakka Noodles</h4>
+        <p>Classic Indo-Chinese noodles stir-fried with bell peppers, onions, and soy-based sauce.</p>
+        <p class="price">C$12.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="images/Chilli Paneer (Dry).jpeg" alt="Chilli Paneer" />
+        <h4>Chilli Paneer (Dry)</h4>
+        <p>Crispy cottage cheese cubes tossed in a spicy, tangy sauce with bell peppers.</p>
+        <p class="price">C$13.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Now Button -->
+  <section class="order-now">
+    <a href="order.html" class="btn">Order Now</a>
+  </section>
+
+  <footer>
+    <p>📍 840 Queenston Rd Unit 15, Stoney Creek, ON L8G 4A8, Canada | 📞 (905) 930-9978</p>
+    <p>© 2025 Rajdhani Sweets & Snacks</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajdhani Sweets & Restaurant - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home-page">
+
+  <header>
+    <div class="header-content">
+      <h1 class="site-title">Rajdhani Sweets & Restaurant</h1>
+      <img src="images/footerlogo.png" alt="Rajdhani Logo" class="logo-right" />
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="ordering.html">Online Ordering</a></li>
+        <li><a href="catering services.html">Catering Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="customer review.html">Customer Reviews</a></li>
+        <li><a href="Contact%20Us.html">Contact Us</a></li>
+        <li><a href="Social Media.html">Social Media</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Homepage Image -->
+  <section class="hero">
+    <img src="images/Homepage.jpg" alt="Rajdhani Dishes" class="hero-img">
+    <h2>Authentic Indian Cuisine, Made Fresh Daily</h2>
+    <a href="menu.html" class="btn">View Menu</a>
+  </section>
+
+  <!-- Traditional Sweets Section (.avif) -->
+  <section class="highlight">
+    <img src="images/traditionalsweets.avif" alt="Traditional Indian Sweets" class="highlight-img">
+  </section>
+
+  <!-- Misal Pav Section (.webp) -->
+  <section class="special">
+    <div class="img-overlay">
+      <img src="images/misal-pav.webp" alt="Misal Pav Dish" class="special-img">
+      <h3 class="overlay-text">Spicy Misal Pav – A Maharashtrian Delight</h3>
+    </div>
+  </section>
+
+  <footer>
+    <p>📍 840 Queenston Rd Unit 15, Stoney Creek, ON L8G 4A8, Canada | 📞 (905) 930-9978</p>
+    <p>© 2025 Rajdhani Sweets & Restaurant</p>
+  </footer>
+
+  <!-- Mobile Nav Toggle Script -->
+  <script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const navbar = document.getElementById("navbar");
+    toggleBtn.addEventListener("click", () => {
+      navbar.classList.toggle("show-menu");
+    });
+  </script>
+
+</body>
+</html>
+
+
+
